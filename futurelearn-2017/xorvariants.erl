@@ -1,6 +1,7 @@
 -module(xorvariants).
 -export([xOrA/2, xOrB/2, xOrC/2]).
 %% Give at least three ways of defining 'exclusive or'.
+%% This solution uses 'when', which is not covered in the first week of the course.
 
 xOrA(X,Y)
     when X == Y -> false;
