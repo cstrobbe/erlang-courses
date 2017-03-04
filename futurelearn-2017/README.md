@@ -10,10 +10,10 @@ Exercise solutions for the courses
 * Step 1.05: [first.erl](first.erl) and [second.erl](second.erl).
 * Step 1.15: Variable and pattern matching in practice:
     * [pattern.erl](pattern.erl);
-    * [patterns.erl](patterns.erl), with unit tests in [patterns_tests.erl](patterns_tests.erl).
+    * [patterns.erl](patterns.erl), with unit tests in [patterns_tests.erl](patterns_tests.erl) (inspired by Brian Shaver's solution, listed below).
     * see also:
         * [pattern.erl](https://github.com/nitkna/erlang-practise/blob/master/pattern.erl) by nitkna, which makes very effecient use of pattern matching.
-        * [patterns.erl](https://gist.github.com/shakerlxxv/c4ce9ba760c68582da8c98b19b410cf1) by shakerlxxv, which includes unit tests with [EUnit](http://erlang.org/doc/apps/eunit/chapter.html).
+        * [patterns.erl](https://gist.github.com/shakerlxxv/c4ce9ba760c68582da8c98b19b410cf1) by shakerlxxv / Brian Shaver, which includes unit tests with [EUnit](http://erlang.org/doc/apps/eunit/chapter.html).
         * [third.erl](https://gist.github.com/tejasbubane/624fec099d616dfaaa26dd2b14162821#file-third-erl) which uses `andalso` and `orelse`.
 
 
