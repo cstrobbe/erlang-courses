@@ -20,6 +20,8 @@ xOrC(X,Y) ->
 maxThreeA(X,Y,Z)
   when (X =< Y) and (Y =< Z) -> Z;
 maxThreeA(X,Y,Z)
+  when (X =< Z) and (Y < Z) -> Z;
+maxThreeA(X,Y,Z)
   when (X =< Y) and (Y > Z) -> Y;
 maxThreeA(X,_,_)
   -> X.

@@ -32,7 +32,8 @@ maxThreeA_test() ->
   3 = patterns:maxThreeA(2,3,3),
   3 = patterns:maxThreeA(3,2,2),
   3 = patterns:maxThreeA(2,3,2),
-  3 = patterns:maxThreeA(2,2,3).
+  3 = patterns:maxThreeA(2,2,3),
+  6 = patterns:maxThreeA(4,3,6).
 
 maxThree_test() ->
   3 = patterns:maxThree(3,3,3),
@@ -40,7 +41,8 @@ maxThree_test() ->
   3 = patterns:maxThree(2,3,3),
   3 = patterns:maxThree(3,2,2),
   3 = patterns:maxThree(2,3,2),
-  3 = patterns:maxThree(2,2,3).
+  3 = patterns:maxThree(2,2,3),
+  6 = patterns:maxThree(4,3,6).
 
 
 howManyEqual_0_test() ->
