@@ -15,7 +15,7 @@ Exercise solutions for the courses
     * [pattern.erl](https://github.com/nitkna/erlang-practise/blob/master/pattern.erl) by nitkna, which makes very effecient use of pattern matching.
     * [patterns.erl](https://gist.github.com/shakerlxxv/c4ce9ba760c68582da8c98b19b410cf1) by shakerlxxv / Brian Shaver, which includes unit tests with [EUnit](http://erlang.org/doc/apps/eunit/chapter.html).
     * [third.erl](https://gist.github.com/tejasbubane/624fec099d616dfaaa26dd2b14162821#file-third-erl), which uses `andalso` and `orelse`.
-* Step 1.19: Recursion examples:
+* Step 1.19: Recursion examples and [lazy caterer's sequence](https://en.wikipedia.org/wiki/Lazy_caterer%27s_sequence):
   * [recursionexamples.erl](recursionexamples.erl).
 
 

@@ -16,7 +16,11 @@ fib(N) when N > 2 -> %% We let it fail for negative numbers!
   fib(N-1) + fib(N-2).
 
 
-
-%% pieces(X) ->
-%%   "who knows?".
+%% This is also known as the lazy caterer's sequence: https://en.wikipedia.org/wiki/Lazy_caterer%27s_sequence.
+pieces(0) ->
+  1; %% With 0 cuts, you have a single piece.
+pieces(1) ->
+  2;
+pieces(N) when N > 1 -> %% We let it fail for negative numbers!
+   pieces(N-1) + N.
 
