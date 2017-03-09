@@ -1,5 +1,5 @@
 -module(recursionexamples).
--export([fib/1]).
+-export([fib/1,pieces/1]).
 %% Step 01.19: 
 %% 1. Give a recursive definition of fib/1 - to compute Fibonacci numbers.
 %% 2. "Define a function pieces so that pieces(N) tells you the maximum number of pieces into which you can cut a piece of paper with N straight line cuts."
