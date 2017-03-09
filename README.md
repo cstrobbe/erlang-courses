@@ -18,7 +18,9 @@ Exercise solutions for Erlang courses:
 * David Matuszek: [A Concise Guide to Erlang](http://www.cis.upenn.edu/~matuszek/General/ConciseGuides/concise-erlang.html) (2010).
 * Joe Armstrong: [Programming Erlang (2nd edition)](https://pragprog.com/book/jaerlang2/programming-erlang). 
   Pragmatic Programmers, 2013: book by one of the creators of Erlang.
+  * Francesco Cesarini and Simon Thompson: [Erlang Programming: A Concurrent Approach to Software Development](http://shop.oreilly.com/product/9780596518189.do). O'Reilly Media, 2009.
 * [Getting Started with Erlang](https://www.jetbrains.com/help/idea/2016.3/getting-started-with-erlang.html) for users of IntelliJ IDEA 2016.3.
+* [Erlang Factory](http://www.erlang-factory.com/): Erlang conferences.
 
 
 Software written in Erlang:
