@@ -5,7 +5,7 @@
 -export([]).
 %% Unit tests for recursionexamples.erl.
 %% Compile this module like any other module.
-%% To run all the tests, simply run 'patterns_tests.test().' 
+%% To run all the tests, simply run 'recursionexamples_tests.test().' 
 %% (The 'test()' function is automatically generated.)
 
 fib_test() ->
