@@ -2,7 +2,7 @@
 
 Exercise solutions for Erlang courses:
 
-* [futurelearn-2017](futurelearn-2017): online courses on FutureLearn (February – April 2017).
+* [FutureLearn 2017](futurelearn-2017): online courses on FutureLearn (February – April 2017).
 
 ## Useful Erlang Links
 
@@ -44,6 +44,8 @@ Exercise solutions for Erlang courses:
 ### Other links
 
 * [erldocs](http://erldocs.com/): an alternative to the official Erlang documentation.
+* Fred Hebert: [On Erlang's Syntax](http://ferd.ca/on-erlang-s-syntax.html) (22 July 2010).
+* [Erlang Developer Community](http://erlangcentral.org/).
 * [Erlang Factory](http://www.erlang-factory.com/): Erlang conferences.
 * Joe Armstrong: [A History of Erlang](http://webcem01.cem.itesm.mx:8005/erlang/cd/downloads/hopl_erlang.pdf).
 * [Inside Erlang – creator Joe Armstrong tells his story](https://www.ericsson.com/news/141204-inside-erlang-creator-joe-armstrong-tells-his-story_244099435_c) (4 December 2014).
