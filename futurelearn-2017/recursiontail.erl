@@ -7,14 +7,12 @@
 %% Assumes the following sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
 fib(0) -> 0;
 fib(1) -> 1;
-fib(2) -> 1;
-fib(X) when X > 2 -> %% Let it fail for negative numbers!
-  fib(0,1,X).
-
+fib(N) when N >= 1 -> %% Let it fail for negative numbers!
+  fib(0,1,N).
 
 fib(A, _, 0) ->
   A;
-fib(A, B, N) when N >= 1 -> 
+fib(A, B, N) when N >= 1 -> %% Same guard as in fib(X).
   fib(B, A+B, N-1).
 
 %% step-by-step evaluation of fib(4). : 
@@ -25,6 +23,7 @@ fib(A, B, N) when N >= 1 ->
 %% = fib(2,3,1)
 %% = fib(3,5,0)
 %% = 3
+
 
 perfect(X) ->
   io:format("perfect(~p) not implemented yet!~nbye~n", [X]). %% TODO 
