@@ -2,7 +2,7 @@
 -export([fib/1,pieces/1]).
 %% Step 01.19: 
 %% 1. Give a recursive definition of fib/1 - to compute Fibonacci numbers.
-%% 2. "Define a function pieces so that pieces(N) tells you the maximum number of pieces into which you can cut a piece of paper with N straight line cuts."
+%% 2. "Define a function 'pieces' so that pieces(N) tells you the maximum number of pieces into which you can cut a piece of paper with N straight line cuts."
 
 %% Assumes the following sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
 %% Returns the last number/indexed number instead of the actual sequence.
