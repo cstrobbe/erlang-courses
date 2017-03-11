@@ -1,5 +1,5 @@
 -module(recursiontail).
--export([fib/1,fib/3,perfect/1]).
+-export([fib/1,fib/3,perfect/1,isperfect/1]).
 %% Step 01.21: 
 %% 1. Define a function fib/3 - to compute Fibonacci numbers - using tail recursion.
 %% 2. "Define a function perfect/1 that takes a positive number N and returns a boolean which indicates whether or not the number is perfect."
@@ -24,7 +24,21 @@ fib(A, B, N) when N >= 1 -> %% Same guard as in fib(X).
 %% = fib(3,5,0)
 %% = 3
 
+%% Why calculate what you already know? :-P
+perfect(6) -> true;
+perfect(28) -> true;
+perfect(496) -> true;
+perfect(8128) -> true;
+perfect(33550336) -> true;
+perfect(X) when X < 6 -> false;
+perfect(X) when X < 28 -> false;
+perfect(X) when X < 496 -> false;
+perfect(X) when X < 8128 -> false;
+perfect(X) when X < 33550336 -> false;
+perfect(X) when X > 33550336 ->
+  isperfect(X).
 
-perfect(X) ->
+isperfect(X) ->
   io:format("perfect(~p) not implemented yet!~nbye~n", [X]). %% TODO 
+
 
