@@ -34,12 +34,12 @@ perfect_ok_test() ->
   true  = recursiontail:perfect(8589869056).
 
 perfect_nok_test() ->
-  false  = recursiontail:perfect(6),
-  false  = recursiontail:perfect(28),
-  false  = recursiontail:perfect(496),
-  false  = recursiontail:perfect(8128),
-  false  = recursiontail:perfect(33550336),
-  false  = recursiontail:perfect(8589869056).
+  false  = recursiontail:perfect(5),
+  false  = recursiontail:perfect(27),
+  false  = recursiontail:perfect(495),
+  false  = recursiontail:perfect(8127),
+  false  = recursiontail:perfect(33550335),
+  false  = recursiontail:perfect(8589869055).
 
 %% Separate tests for prime numbers. See list at https://en.wikipedia.org/wiki/List_of_prime_numbers
 perfect_nok_prime_test() ->
