@@ -19,7 +19,7 @@ perimeter({triangle, {_X,_Y}, A, B, C}) ->
 
 area({circle, {_X,_Y}, R}) ->
   math:pi()*R*R;
-area({rectangle, {_X,_Y}, H, H}) -> 
+area({rectangle, {_X,_Y}, H, H}) -> %% a square
   H*H;
 area({rectangle, {_X,_Y}, H, W}) ->
   H*W;
@@ -29,13 +29,19 @@ area({triangle, {_X,_Y}, A, B, C}) -> %% see second.erl
 
 
 enclose(X) ->
-  io:format("enclose(~p) not implemented yet. Please consult a geometry textbook.~nbye~n", [X]). %% TODO 
+  io:format("enclose(~p) not implemented. Please consult a geometry textbook.~nbye~n", [X]). %% WONT DO 
 
 %% SUMMING THE BITS
 %% "Define a function bits/1 that takes a positive integer N and returns the sum of the bits in the binary representation. For example bits(7) is 3 and bits(8) is 1."
 %% "See whether you can make both a direct recursive and a tail recursive definition. Which do you think is better? Why?"
 
 bits(X) ->
-  io:format("bits(~p) not implemented yet!~nbye~n", [X]). %% TODO 
+  bitsfromdecimal(X, 1).
 
+bitsfromdecimal(0, C) ->
+  C;
+bitsfromdecimal(1, C) ->
+  C;
+bitsfromdecimal(X, C) ->
+  bitsfromdecimal(X div 2, C+1).
 
