@@ -1,11 +1,11 @@
 -module(recursionexamples_tests).
 -include_lib("eunit/include/eunit.hrl").
-%% Before you can use this on Windows, " the Erlang module search path must contain a directory whose name ends in eunit/ebin".
+%% Before you can use this on Windows, "the Erlang module search path must contain a directory whose name ends in eunit/ebin".
 %% See http://erlang.org/doc/apps/eunit/chapter.html#Including_the_EUnit_header_file
 -export([]).
 %% Unit tests for recursionexamples.erl.
 %% Compile this module like any other module.
-%% To run all the tests, simply run 'recursionexamples_tests.test().' 
+%% To run all the tests, simply run 'recursionexamples_tests:test().' 
 %% (The 'test()' function is automatically generated.)
 
 fib_test() ->
