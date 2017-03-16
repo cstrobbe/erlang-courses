@@ -20,7 +20,7 @@ Exercise solutions for the courses
 * Step 1.21: Tail recursion: Fibonacci and checking whether N is a [perfect number](https://en.wikipedia.org/wiki/Perfect_number).
   * [recursiontail.erl](recursiontail.erl) and [unit tests for recursiontail.erl](recursiontail_tests.erl).
   * see also [What is tail recursion?](http://stackoverflow.com/questions/33923/what-is-tail-recursion) on StackOverflow (where some examples are misleading, unfortunately)
-
+* Step 1.24: Pattern matching assignment: [patternsassignment.erl](patternsassignment.erl) (partial solution) and [patternsassignment_tests.erl](unit tests).
 
 ## Concurrent Programming in Erlang
 
